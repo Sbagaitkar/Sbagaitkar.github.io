@@ -1,77 +1,122 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayali Portfolio</title>
+    <title>Dummy Sayali Portfolio</title>
     <style>
-      * {
-        margin: 0px;
-      }
-    .header {
-      background-color: pink;
+        *{
+            margin:0px;
+          }
+
+        .container{
+            background:url('/Images/background.jpg');
+            /*background-size:cover;*/
+           /* background: width 100%; */
+            /*background:height auto;*/
+          }
+
+        .header {
+      /*background-color: pink;*/
       height:100px;
       align-items:center;
       display:flex;
-      justify-content:space-between
-      
+      justify-content:space-between      
           } 
 
-    .header1 {
-      
+          .header1 {
       display:flex;
       justify-content:space-between
-      
-      
-    } 
-    .toplinks{
+          }
+    
+         .toplinks{
       padding: 30px;
-      
-      
-    }
-    .middle{
-      height:500px;
-     /*width:max-content;*/
-      background-color:aqua;
-      /*padding: 200px;*/
-      align-items: center;
-      
-    }
-    button{
-      width:100px;
-      height:30px;
-      background-color: grey;
-      margin-left: 130px;
-      
-    }
-    /*pre{
-      align-content: center;
-    }*/
+          
+          }
+          .box{
+           margin-top:200px;
+            /*width:100%;*/
+            height:500px;
+            text-align: center;
+            
+          }
+          pre{
+            font-size: 40px;
+            font-family: Arial;
+           
+          }
+          #aboutSection{
+            margin-top: 500px;
+          }
 
-  </style>
+    </style>
 </head>
 <body>
-  <div class="header" style="display:flex;justify-content: space-between;">
-   <div><h1>Sayali Portfolio</h1></div>
-   <div class="header1" style="display: flex;">
-    <div class="toplinks"><b>Home</b></div> 
-    <div class="toplinks"><b>About</b></div>
-    <div class="toplinks"><b><a href="https://sbagaitkar.github.io/myproject/">Projects</a></b></div>
-    <div class="toplinks"><b>Contact</b></div>
-  </div>
-  </div> 
-  <div class="middle" style="align-content:center;" >
-   
-      <pre style="margin-left: 50%;">
-        HEY, I'm SAYALI BAGAITKAR
-        Frontend Web Developer
-     
-      <button><b>Resume</b></button>
-    </pre>
-      
-  </div>
-  
-  <a href="https://sbagaitkar.github.io/myproject/"> My Project 1 </a>
+    <div class="container">
+       
+        <div class="header" style="display:flex;justify-content: space-between;">
+            <div><h1>Sayali Portfolio</h1></div>
+            <div class="header1" style="display: flex;">
+             <div class="toplinks"><b><a href="#homeSection">Home</a></b></div> 
+             <div class="toplinks"><b><a href="#aboutSection">About</a></b></div>
+             <div class="toplinks"><b><a href="https://sbagaitkar.github.io/myproject/">Projects</a></b></div>
+             <div class="toplinks"><b>Contact</b></div>
+           </div>
+           </div> 
+
+        <div class="box">
+            <pre> <b>
+
+            Hey, I'm SAYALI BAGAITKAR
+            Frontend Web Developer
+            </b></pre>    
+        </div>
+
+        <div id="homeSection">
+            This is my home page
+            </div>
+
+        <div id="aboutSection">
+            Skills:
+            <ul name="skillset">
+                <li> Java </li>
+                <li> JavaScript </li>
+                <li> SQL </li>
+                <li> MongoDB </li>
+
+            </ul>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
 </body>
 </html>
